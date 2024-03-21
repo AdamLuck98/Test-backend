@@ -2,7 +2,6 @@
   "name": "test-backend",
   "version": "1.0.0",
   "description": "test cod",
-  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p . && cp package.json dist/package.json && cp -r node_modules dist",
