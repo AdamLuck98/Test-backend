@@ -2,11 +2,11 @@
   "name": "test-backend",
   "version": "1.0.0",
   "description": "test cod",
-  "main": "app.ts",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p . && cp package.json dist/package.json && cp -r node_modules dist",
-     "start"  : "ts-node app.ts"
+     "start"  : "ts-node index.ts"
   },
   "author": "",
   "license": "ISC",
