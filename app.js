@@ -4,6 +4,6 @@ app.get("/",(req,res)=>{
     res.status(200).send("hello World");
 
 });
-app.listen(3000,()=>{
+app.listen(8080,()=>{
     console.log("listening to 30001");
 })
